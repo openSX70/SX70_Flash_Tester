@@ -5748,7 +5748,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="openSX70" deviceset="SX70-FLASH-EDGE8-MALE" device=""/>
+<part name="FLASH-TESTER" library="openSX70" deviceset="SX70-FLASH-EDGE8-MALE" device=""/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:40181/1"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:40181/1"/>
 <part name="S3" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:40181/1"/>
@@ -5770,7 +5770,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="127" y="0"/>
+<instance part="FLASH-TESTER" gate="G$1" x="127" y="0"/>
 <instance part="S1" gate="1" x="43.18" y="58.42" rot="R270"/>
 <instance part="S2" gate="1" x="55.88" y="58.42" rot="R270"/>
 <instance part="S3" gate="1" x="68.58" y="58.42" rot="R270"/>
@@ -5835,7 +5835,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<pinref part="U$1" gate="G$1" pin="F2"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="F2"/>
 <wire x1="83.82" y1="30.48" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
@@ -5848,7 +5848,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="71.12" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="F3"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="F3"/>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
@@ -5873,7 +5873,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
 <junction x="58.42" y="30.48"/>
 <wire x1="65.024" y1="30.48" x2="65.024" y2="21.336" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="F4"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="F4"/>
 <wire x1="65.024" y1="21.336" x2="68.58" y2="21.336" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="21.336" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -5883,7 +5883,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="F-5"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="F-5"/>
 <wire x1="63.5" y1="27.94" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
@@ -5894,10 +5894,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="17.78" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="S2"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="S2"/>
 <wire x1="58.42" y1="22.86" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5916,7 +5916,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$12" class="0">
 <segment>
 <wire x1="78.74" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="VCC"/>
 <wire x1="78.74" y1="17.78" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P"/>
 <wire x1="81.28" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
@@ -5942,7 +5942,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="F1"/>
+<pinref part="FLASH-TESTER" gate="G$1" pin="F1"/>
 <wire x1="88.9" y1="17.78" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
